@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/styles/styles.css">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="cortain"></div>
+  <div class="Container">    
+    <nav>
+      <img class="responsiveNav menu" src="/src/assets/icon-hamburger.svg" alt="">
+      <img class="logo" src="/src/assets/logo.svg" alt="">
+      <ul>
+        <img class="menuClose" src="/src/assets/icon-close.svg" alt="">
+        <li>Home</li>
+        <li>Shop</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="Container__photo resPhotoOne">
+      <img class="photoSlider photoShown" src="/src/assets/desktop-image-hero-1.jpg" alt="">
+      <img class="photoSlider photoHidden" src="/src/assets/desktop-image-hero-2.jpg" alt="">
+      <img class="photoSlider photoHidden" src="/src/assets/desktop-image-hero-3.jpg" alt="">
+      <div class="firstContainer__photo-buttons">
+        <div class="firstContainer__photo-buttons-button left">
+          <img src="/src/assets/icon-angle-left.svg" alt="">
+        </div>
+        <div class="firstContainer__photo-buttons-button right">
+          <img src="/src/assets/icon-angle-right.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="Container__text textPadding  textOne">
+      <h1 class="titles">Discover innovative ways to decorate</h1>
+      <p class="text">We provide unmatched quality, comfort, and style for property owners across the country. 
+        Our experts combine form andnfunction in bringing your vision to life. Create a room in your 
+        own style with our collection and make your property a reflection of you and what you love.</p>
+      <div class="Container__text__buttons">
+        <p class="actionButton">S H O P&nbsp;&nbsp;N O W</p>
+        <img src="/src/assets/icon-arrow.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="Container">
+    <div class="Container__photo resPhotoTwo">
+      <img src="/src/assets/image-about-dark.jpg" alt="">
+    </div>
+    <div class="Container__text textPadding textTwo">
+      <h2>ABOUT&nbsp;&nbsp;OUR&nbsp;&nbsp;FURNITURE</h2>
+      <p class="text">Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.</p>
+    </div>
+    <div class="Container__photo resPhotoTwo">
+      <img src="/src/assets/image-about-light.jpg" alt="">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="puentes.intech5g.com">Jopt05</a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jopt05</a>
+  </div> -->
+</body>
+<script src="/src/js/main.js"></script>
+</html>
