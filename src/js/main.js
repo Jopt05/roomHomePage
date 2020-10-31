@@ -57,17 +57,19 @@ for(let i = 0; i < sliderBtn.length; i++) {
 
     sliderBtn[i].addEventListener('click', () => {
         if( i == 0 ) {
-            if( cursor > 0 ) {
+            if( cursor >= 0 ) {
                 hidePhoto(cursor);
                 cursor--;
+                ( cursor === -1 ) ? cursor = 2 : console.log('');
                 changeText(cursor);
                 showPhoto(cursor);
                 console.log(cursor);
             }
         } else {
-            if( cursor < sliderPhotos.length - 1) {
+            if( cursor < sliderPhotos.length ) {
                 hidePhoto(cursor);
                 cursor++;
+                ( cursor === 3 ) ? cursor = 0 : console.log('');
                 changeText(cursor);
                 showPhoto(cursor);
                 console.log(cursor);
